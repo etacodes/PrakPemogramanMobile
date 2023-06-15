@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tubes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Toko ELektronik</string>
+    <string name="nav_header_subtitle">Menjual Barang Elektronik</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_komputer">Komputer</string>
+    <string name="menu_periferal">Periferal</string>
+    <string name="menu_smartphone">Smartphone</string>
+    <string name="menu_anggota">Anggota</string>
+</resources>

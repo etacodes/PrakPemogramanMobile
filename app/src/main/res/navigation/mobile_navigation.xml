@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.unpas.elektronik.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_dosen"
+        android:name="com.unpas.elektronik.ui.komputer.KomputerFragment"
+        android:label="@string/menu_komputer"
+        tools:layout="@layout/fragment_komputer" />
+
+    <fragment
+        android:id="@+id/nav_mahasiswa"
+        android:name="com.unpas.elektronik.ui.periferal.PeriferalFragment"
+        android:label="@string/menu_periferal"
+        tools:layout="@layout/fragment_periferal" />
+
+    <fragment
+        android:id="@+id/nav_matakuliah"
+        android:name="com.unpas.elektronik.ui.smartphone.SmartphoneFragment"
+        android:label="@string/menu_smartphone"
+        tools:layout="@layout/fragment_smartphone" />
+
+    <fragment
+        android:id="@+id/nav_anggota"
+        android:name="com.unpas.elektronik.ui.anggota.AnggotaFragment"
+        android:label="@string/menu_anggota"
+        tools:layout="@layout/fragment_anggota" />
+</navigation>
