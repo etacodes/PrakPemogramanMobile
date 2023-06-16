@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Tubes</string>
+    <string name="app_name">E-Store</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Toko ELektronik</string>
-    <string name="nav_header_subtitle">Menjual Barang Elektronik</string>
+    <string name="nav_header_title">E - Store</string>
+    <string name="nav_header_subtitle">Find Your Choice Here</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_refresh">Refresh</string>
 

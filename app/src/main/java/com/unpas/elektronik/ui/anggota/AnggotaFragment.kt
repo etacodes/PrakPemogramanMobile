@@ -19,11 +19,11 @@ class AnggotaFragment : Fragment() {
     data class Person(val npm: String, val nama: String)
 
     private val peopleList: List<Person> = listOf(
-        Person("203040127", "Eriko Timur Apandi"),
+        Person("203040127", "Ericko Timur Apandi"),
         Person("203040120", "Dimas Prayuda"),
         Person("203040150", "M. Tegar Nurul Fuad Rosmali"),
         Person("203040135", "Rafi Nuril Akbar Firmansyah"),
-        Person("203040162", "Ahmaf Reyhan Ronaldo"),
+        Person("203040162", "Ahmad Reyhan Ronaldo"),
         Person("203040155", "Hendri T. Padang"),
     )
 
@@ -44,9 +44,9 @@ class AnggotaFragment : Fragment() {
 
             // Set warna latar belakang
             if (index % 2 == 0) {
-                tableRow.setBackgroundColor(Color.parseColor("#FFA3FD"))
+                tableRow.setBackgroundColor(Color.parseColor("#99DBF5"))
             } else {
-                tableRow.setBackgroundColor(Color.parseColor("#E5B8F4"))
+                tableRow.setBackgroundColor(Color.parseColor("#A7ECEE"))
             }
 
             tableRow.addView(npmCell)
